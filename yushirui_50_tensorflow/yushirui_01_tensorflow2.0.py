@@ -40,6 +40,7 @@ r = model.compile(
 )
 print(r)
 
+
 # 训练模型
 r = model.fit(x_train, y_train, epochs=5)
 print(r)

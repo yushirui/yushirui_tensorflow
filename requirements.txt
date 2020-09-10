@@ -1,0 +1,10 @@
+# 所有库名称版本写入requirements.txt
+# pip freeze > requirements.txt
+
+# 安装所有requirements.txt中的库
+# pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com -r requirements.txt
+
+
+tensorflow==2.3.0
+numpy
+matplotlib
